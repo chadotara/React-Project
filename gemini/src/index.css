@@ -1,0 +1,36 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:wght@100..400&display=swap');
+
+/* Global reset and box-sizing setup */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif; /* Added fallback font */
+}
+
+/* Ensure the root container stretches to full height */
+#root {
+  min-height: 100vh;
+  display: flex;
+  animation: fadeIn 1.5s ;
+  -webkit-animation: fadeIn 1.5s ;
+}
+
+/* Basic text styles */
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: #f0f4f9; /* Add a subtle background color for consistency */
+  color: #333; /* Default text color for better readability */
+  line-height: 1.6; /* Improve readability by adjusting line height */
+}
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  
+  100%{
+    opacity: 1;
+  }
+}
