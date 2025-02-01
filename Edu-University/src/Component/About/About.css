@@ -32,6 +32,7 @@
     -moz-transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
     -o-transform: translate(-50%,-50%);
+    cursor: pointer;
 }
 .about h3{
     font-weight: 600;
@@ -49,4 +50,23 @@
 .about p{
     color:#1B263B ;
     margin-bottom: 15px;
+}
+
+/* ----------media query ----------- */
+
+
+@media (max-width:880px){
+    .about{
+        flex-direction: column;
+    }
+    .about-left{
+        flex-basis: 100%;
+        margin: 20px;
+        order: 2;
+
+    }
+    .about-right{
+        flex-basis: 100%;
+
+    }
 }
