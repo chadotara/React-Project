@@ -1,0 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Playfair+Display:wght@100..400&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"Outfit", sans-serif;
+}
+
+body{
+  background:#E0E1DD  ;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  cursor: pointer;
+}
+.container{
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.btn{
+  background: #E0E1DD ;
+  color:#1B263B ;
+  padding: 14px 25px;
+  font-size: 16px;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  cursor: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.btn img{
+  width: 20px;
+  margin-left: 10px;
+}
+.btn.dark-btn{
+background: #1B263B;
+color:#E0E1DD ;
+}
