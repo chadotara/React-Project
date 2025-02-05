@@ -1,5 +1,5 @@
 import React from 'react'
-import TicTacToe from './Components/Tictactor/Tictactoe'
+import TicTacToe from './Components/Tictactoe/TicTacToe'
 
 function App() {
   return (
